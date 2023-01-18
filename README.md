@@ -8,6 +8,7 @@ L’objectif est de créer une Dapp sur laquelle chacun sera libre de demander d
 
 ![alt text](https://github.com/BenBktech/FullStack-MiniJob-DApp-hardhatdeploy-hardhat-wagmi-rainbowkit-events-nextjs/blob/main/addAJob.png)
 
+
 **Au niveau de l’UI, il y aura deux champs importants : **
 - un champs description du job
 - un champs où l’utilisateur qui veut être aidé (qui créer le job) précise quel montant il donnera à la personne qui va l’aider (en ETH)
@@ -23,6 +24,7 @@ Au niveau technique, l’utilisateur qui créé le job donnera la « récompens
 - prix
 - si le job est terminé
 - si le job est réservé
+
 
 **Voici le smart contract à compléter :**
 
@@ -70,6 +72,7 @@ contract Jobs {
 
 Comme vous pouvez le remarquer, on n’utilise pas de fonction en Solidity pour récupérer tous les jobs dans un tableau, en effet, cet aspect doit être géré d’une façon plus efficace grâce aux events !
 
+
 **Au niveau de la liste des jobs, voici le rendu attendu :**
 
 ![alt text](https://github.com/BenBktech/FullStack-MiniJob-DApp-hardhatdeploy-hardhat-wagmi-rainbowkit-events-nextjs/blob/main/listOfJobs.png)
@@ -80,6 +83,7 @@ Les jobs auront plusieurs statuts possibles (dans l’ordre d’apparition sur l
 - Le job a été créé par son créateur (qui est ici la personne connectée), il ne peut donc pas prendre le job ni payer un travailleur pour le moment car le job n’a pas été réservé par un travailleur (4)
 - Le job vient d’être pris par un travailleur (qui est différent du créateur) (5)
 - Un job a été posté par une autre adresse que celle connectée et l’utilisateur connecté peut prendre le job. (6)
+
 
 **Si aucun job est présent sur la Dapp, il faut que le front le précise :**
 ![alt text](https://github.com/BenBktech/FullStack-MiniJob-DApp-hardhatdeploy-hardhat-wagmi-rainbowkit-events-nextjs/blob/main/listOfJobsNoJobs.png)
