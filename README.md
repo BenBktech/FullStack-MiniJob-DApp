@@ -9,8 +9,8 @@ Premièrement, l’utilisateur pourra créer un job :
 ![alt text](https://github.com/BenBktech/FullStack-MiniJob-DApp-hardhatdeploy-hardhat-wagmi-rainbowkit-events-nextjs/blob/main/addAJob.png)
 
 Au niveau de l’UI, il y aura deux champs importants : 
-    • un champs description du job
-    • un champs où l’utilisateur qui veut être aidé (qui créer le job) précise quel montant il donnera à la personne qui va l’aider (en ETH)
+- un champs description du job
+- un champs où l’utilisateur qui veut être aidé (qui créer le job) précise quel montant il donnera à la personne qui va l’aider (en ETH)
 
 Au niveau technique, l’utilisateur qui créé le job donnera la « récompense » directement au smart contract. Lorsque la personne qui réservera le job aura terminé, l’utilisateur qui a créé le job déclenchera une fonction qui permettra de payer automatiquement le « travailleur ».
 
