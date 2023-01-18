@@ -77,7 +77,7 @@ Comme vous pouvez le remarquer, on n’utilise pas de fonction en Solidity pour 
 
 ![alt text](https://github.com/BenBktech/FullStack-MiniJob-DApp-hardhatdeploy-hardhat-wagmi-rainbowkit-events-nextjs/blob/main/listOfJobs.png)
 
-**Les jobs auront plusieurs statuts possibles (dans l’ordre d’apparition sur l’image ci-dessus) :
+**Les jobs auront plusieurs statuts possibles (dans l’ordre d’apparition sur l’image ci-dessus) :**
 - Le job est terminé. Il a été réservé par un travailleur et payé par le créateur du job. (1)
 - Le job est réservé et le créateur doit payer le travailleur (2 et 3)
 - Le job a été créé par son créateur (qui est ici la personne connectée), il ne peut donc pas prendre le job ni payer un travailleur pour le moment car le job n’a pas été réservé par un travailleur (4)
